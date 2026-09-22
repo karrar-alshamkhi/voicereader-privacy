@@ -1,46 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - VoiceReader Mobile</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333; max-width: 800px; margin: auto; }
-        h1, h2 { color: #008080; }
-        footer { margin-top: 40px; font-size: 0.9em; color: #666; border-top: 1px solid #ccc; padding-top: 10px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية - قارئ النصوص</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+      margin: 0;
+      background: #f7f7fb;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    h1, h2 {
+      color: #4b3dbb;
+    }
+    a {
+      color: #4b3dbb;
+    }
+    ul {
+      padding-right: 20px;
+    }
+    .note {
+      background: #f1efff;
+      border-right: 4px solid #4b3dbb;
+      padding: 12px 16px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Privacy Policy for VoiceReader Mobile</h1>
-    <p><strong>Effective Date:</strong> September 22, 2026</p>
+  <div class="container">
+    <h1>سياسة الخصوصية لتطبيق قارئ النصوص</h1>
+    <p><strong>آخر تحديث:</strong> 22 سبتمبر 2026</p>
 
-    <p><strong>Alshamkhi Tech Ltd</strong> ("we", "our", or "us") operates the <strong>VoiceReader Mobile</strong> application (Package Name: <code>com.alshamkhitech.voicereader</code>). This Privacy Policy explains how we handle user data when using our application.</p>
+    <p>
+      توضح هذه السياسة كيفية تعامل تطبيق <strong>قارئ النصوص</strong> مع المعلومات عند استخدام التطبيق.
+      باستخدامك للتطبيق، فإنك توافق على ما هو وارد في هذه السياسة.
+    </p>
 
-    <h2>1. Information Collection and Use</h2>
-    <p>VoiceReader Mobile is designed to convert text to speech for personal productivity. We value your privacy and aim to collect as little data as possible:</p>
+    <h2>1) نبذة عن التطبيق</h2>
+    <p>
+      تطبيق <strong>قارئ النصوص</strong> يتيح للمستخدم إدخال نصوص وتحويلها إلى صوت، إما باستخدام
+      محرك القراءة الموجود على الجهاز أو باستخدام خدمة <strong>Azure Speech</strong> عند اختيار ذلك من داخل التطبيق.
+    </p>
+
+    <h2>2) البيانات التي قد يتعامل معها التطبيق</h2>
     <ul>
-        <li><strong>Text Data:</strong> Any text entered or imported into the app for text-to-speech processing is processed locally on your device or via native system TTS engines. We do not store, record, or transmit your text to external servers.</li>
-        <li><strong>Activation & Licensing Data:</strong> When activating full features using an activation code, the app may check activation status locally or verify licensing using device identifiers strictly for preventing abuse. This data is not shared with third parties.</li>
+      <li><strong>النصوص التي يكتبها المستخدم:</strong> يتم استخدامها فقط لغرض تحويلها إلى صوت.</li>
+      <li><strong>إعدادات Azure:</strong> مثل مفتاح الخدمة والمنطقة والصوت المختار، ويتم حفظها محليًا على الجهاز لتسهيل الاستخدام.</li>
+      <li><strong>بيانات التفعيل والتجربة:</strong> مثل تاريخ بدء التجربة، رمز التفعيل، ومدة التفعيل، ويتم حفظها محليًا على الجهاز.</li>
+      <li><strong>الملفات الصوتية المصدّرة:</strong> عند استخدام ميزة التصدير، يتم حفظ الملف الصوتي على جهازك داخل مجلد التنزيلات أو المجلد المناسب حسب النظام.</li>
     </ul>
 
-    <h2>2. Third-Party Services & Analytics</h2>
-    <p>The app does not contain third-party advertisements or invasive tracking services. We do not sell or monetize your personal data.</p>
+    <h2>3) كيف تُستخدم البيانات</h2>
+    <ul>
+      <li>تشغيل النص بصوت مسموع داخل التطبيق.</li>
+      <li>تصدير النص كملف صوتي عند طلب المستخدم.</li>
+      <li>حفظ الإعدادات والتفضيلات محليًا لتحسين تجربة الاستخدام.</li>
+      <li>التحقق من حالة التجربة أو التفعيل داخل التطبيق.</li>
+    </ul>
 
-    <h2>3. Children's Privacy</h2>
-    <p>VoiceReader Mobile does not knowingly collect any personal identifiable information from children under the age of 13.</p>
+    <h2>4) متى يتم إرسال البيانات إلى طرف ثالث</h2>
+    <p>
+      عند اختيار المستخدم لمحرك <strong>Azure Neural</strong>، قد يتم إرسال النص الذي أدخله إلى
+      خدمة <strong>Microsoft Azure Speech</strong> من أجل تنفيذ عملية تحويل النص إلى كلام.
+    </p>
+    <p>
+      في هذه الحالة، تخضع معالجة البيانات أيضًا لسياسات الخصوصية الخاصة بشركة Microsoft:
+      <br />
+      <a href="https://privacy.microsoft.com/ar-sa/privacystatement" target="_blank" rel="noopener noreferrer">
+        https://privacy.microsoft.com/ar-sa/privacystatement
+      </a>
+    </p>
+    <p>
+      أما عند استخدام محرك القراءة الخاص بالجهاز، فالمعالجة تتم محليًا بحسب إمكانيات نظام التشغيل المستخدم.
+    </p>
 
-    <h2>4. Data Security</h2>
-    <p>We implement industry-standard practices to ensure your information remains secure on your local device.</p>
+    <h2>5) التخزين المحلي</h2>
+    <p>قد يقوم التطبيق بتخزين البيانات التالية محليًا على جهاز المستخدم:</p>
+    <ul>
+      <li>إعدادات خدمة Azure.</li>
+      <li>الصوت المختار والتفضيلات المرتبطة بالتشغيل.</li>
+      <li>بيانات التجربة والتفعيل.</li>
+      <li>الملفات الصوتية التي يطلب المستخدم تصديرها.</li>
+    </ul>
+    <p>
+      لا يتم استخدام هذه البيانات المحلية لبيعها أو مشاركتها لأغراض إعلانية.
+    </p>
 
-    <h2>5. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.</p>
+    <h2>6) الأذونات</h2>
+    <p>قد يطلب التطبيق بعض الأذونات اللازمة لعمله، مثل:</p>
+    <ul>
+      <li><strong>الاتصال بالإنترنت:</strong> لاستخدام خدمات Azure عند اختيارها.</li>
+      <li><strong>الوصول إلى حالة الشبكة:</strong> للتحقق من توفر الاتصال اللازم لبعض الميزات.</li>
+      <li><strong>المايكروفون (إن وُجد ضمن الأذونات على الجهاز):</strong> يُستخدم فقط للميزات الصوتية ذات الصلة إن تم تفعيلها داخل التطبيق، ولا يتم التسجيل في الخلفية بشكل مستمر.</li>
+      <li><strong>التخزين أو الوصول للملفات:</strong> لحفظ ومشاركة الملفات الصوتية التي يطلب المستخدم تصديرها.</li>
+    </ul>
 
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <p><strong>Email:</strong> support@alshamkhitech.com</p>
+    <h2>7) مشاركة البيانات</h2>
+    <p>
+      لا يقوم التطبيق ببيع بيانات المستخدم أو تأجيرها أو مشاركتها مع أطراف ثالثة لأغراض تسويقية.
+      وقد تتم المشاركة فقط في الحالات التالية:
+    </p>
+    <ul>
+      <li>عند استخدام خدمة Azure Speech لتحويل النص إلى صوت.</li>
+      <li>عند قيام المستخدم بنفسه بمشاركة الملف الصوتي من خلال ميزة المشاركة في التطبيق.</li>
+      <li>إذا كان ذلك مطلوبًا بموجب القانون.</li>
+    </ul>
 
-    <footer>
-        <p>&copy; 2026 Alshamkhi Tech Ltd. All rights reserved.</p>
-    </footer>
+    <h2>8) الاحتفاظ بالبيانات</h2>
+    <p>
+      يتم الاحتفاظ بالبيانات المحفوظة محليًا على جهازك إلى أن تقوم أنت بحذفها، أو حذف التطبيق،
+      أو مسح بيانات التطبيق من إعدادات النظام.
+    </p>
+
+    <h2>9) الأمان</h2>
+    <p>
+      يتم اتخاذ خطوات معقولة لحماية البيانات المخزنة محليًا، بما في ذلك استخدام وسائل التخزين المناسبة
+      المتاحة على النظام لحفظ بعض الإعدادات الحساسة. ومع ذلك، لا توجد وسيلة نقل أو تخزين إلكتروني آمنة بنسبة 100%.
+    </p>
+
+    <h2>10) خصوصية الأطفال</h2>
+    <p>
+      التطبيق غير موجّه خصيصًا للأطفال دون السن القانونية، ولا يجمع عن قصد معلومات شخصية منهم.
+      إذا تبيّن وجود بيانات تم تقديمها من طفل دون موافقة ولي الأمر، فيجب التواصل معنا لإزالتها إن أمكن.
+    </p>
+
+    <h2>11) التعديلات على هذه السياسة</h2>
+    <p>
+      قد يتم تحديث سياسة الخصوصية من وقت لآخر. سيتم نشر أي نسخة محدثة على هذه الصفحة مع تعديل تاريخ التحديث.
+    </p>
+
+    <h2>12) التواصل</h2>
+    <p>
+      إذا كانت لديك أي استفسارات بخصوص سياسة الخصوصية، يمكن التواصل عبر البريد الإلكتروني التالي:
+      <br />
+      <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+    </p>
+
+    <div class="note">
+      <strong>ملاحظة:</strong>
+      يجب استبدال البريد الإلكتروني أعلاه ببريدك الحقيقي قبل نشر الصفحة على Google Play.
+    </div>
+  </div>
 </body>
 </html>
